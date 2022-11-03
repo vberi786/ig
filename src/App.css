@@ -1,0 +1,158 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0%;
+}
+
+.app{
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.app_header{
+  background-color: white;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 2;
+}
+
+
+.app_header_image{
+  flex: 0.6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app_header_image>img{
+  padding: 0.7rem .2rem .2rem 0.9rem;
+  max-height: 2.4rem;
+}
+
+.tools{
+  flex: 0.2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logout{
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app_posts{
+  padding: 1rem;
+}
+
+.w100{
+  width: 100%;
+}
+
+a{  
+  text-decoration: none;
+  color:gray;
+}
+
+
+/* css for Login and SignUp */
+
+
+.form_container{
+  background-color: #fafafa;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.inner_form_box{
+  width: 400px;
+  background-color: white;
+  min-height: 40%;
+  padding: 1rem 0;
+}
+
+.signup_login{
+  width: 24rem;   
+  margin-top: 1rem;
+  padding: 1rem 0;
+  background-color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+input{
+  width: 80%;
+  height: 1rem;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline-color: gray;
+}
+
+.btn{
+  padding: .5rem;
+  width: 84%; 
+  border-radius: 5px;
+  border: none;
+  background-color: #0095f6;
+  color: white;
+  font-weight: 200;
+  margin-left: auto;
+  margin-top: 0.8rem;
+  margin-right: auto;
+}
+
+.center{
+  width: 100%;
+  text-align: center;
+}
+
+.screen-center{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

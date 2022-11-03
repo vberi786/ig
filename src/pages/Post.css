@@ -1,0 +1,95 @@
+.post{
+    max-width: 550px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin-bottom: 3rem;
+}
+
+.post_image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post_header{
+    display: flex;
+    align-items: center;
+    padding: .6rem .2rem;
+    justify-content: space-between;
+}
+
+.display_flex_center{
+    display: flex;
+    align-items: center;
+}
+
+.post_avatar{
+    margin: 0 .5rem;
+}
+
+.post_tools{
+    display: flex;
+    margin: 0.2rem 0;
+}
+
+.like{
+    margin: 0 .6rem;
+}
+
+.commentIcon{
+    margin: 0 .6rem;
+}
+
+.delete{
+    color:gray; 
+}
+
+.delete:hover{
+    color:red;
+}
+
+.post_likes>p{
+    font-weight: 600;
+    margin-left: .6rem;
+}
+
+
+.post_text{
+    box-sizing: border-box;
+    font-weight: normal ;
+    padding:.6rem;
+}
+
+
+.post_comment{
+    box-sizing: border-box;
+    padding: 0 .4rem;
+}
+
+.comment_form{
+    display: flex;
+    align-items: center;
+}
+
+.comment_input{
+    flex: 0.8;
+    outline: none;
+    padding: 0.4rem;
+}
+
+.comment_submit{
+    flex: 0.2;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    font-weight: 200;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment>h4{
+    padding:0.2rem .6rem;
+}

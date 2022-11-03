@@ -1,0 +1,107 @@
+.reels{
+    opacity: 0.8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top_reel_bar{
+    position: absolute;
+    top: 0;
+    margin-right: 3%;
+    width: 85vw;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
+  }
+  
+  .bottom_reel_bar{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.outer_container{
+  background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+    
+}
+
+.reel_video{
+    width: 320px;
+    position: relative;
+  }
+
+.reel_content{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 8%;
+  bottom: 6%;
+  color: white;
+}
+
+
+.reel_delete{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+
+.reel_caption{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 6%;
+  bottom: 0%;
+  color: white;
+}
+
+.reel_like{
+  position: absolute;
+  right: 2%;
+  bottom: .59rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.reel_like h3{
+  margin-top: .5rem;
+}
+
+.reel_caption h3{
+  font-weight: 500;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
